@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3df637a2f2.js" crossorigin="anonymous"></script>
+    <title>Fextouuu Salgados</title>
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <div class="logo">
+                <img src="./img/logofextouu.png" alt="Cupcake">
+                <h3>Fextouuu</h3>
+            </div>
+            <ul class="list-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobrenos">Sobre nós</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+                <li>
+                    <a href="https://www.instagram.com/fextouu_/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Adicione um ID ao menu-toggle -->
+            <div class="menu-toggle" id="menuToggle">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="first-section" id="home">
+
+        <div class="conteudo-principal">
+            <h1>Torne seu dia mais saboroso!</h1>
+            <h2>Fextouuu Fábrica de Salgados</h2>
+            <div class="btn">
+                <button class="reservar"
+                    onclick="document.getElementById('cardapio').scrollIntoView({ behavior: 'smooth' });">
+                    Ver Cardápio
+                </button>
+                <button class="montar"
+                    onclick="window.location.href='https://api.whatsapp.com/send?phone=5521990378080&text=Ol%C3%A1!%0A%0AGostaria%20de%20fazer%20um%20pedido!'">
+                    Faça o seu pedido
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-nos" id="sobrenos">
+        <div class="main">
+            <div class="contentsobre">
+                <h2>Sobre nós</h2>
+                <p>Somos uma pequena fábrica de salgados, iniciada em 2021, onde cada produto é feito artesanalmente,
+                    com carinho e dedicação. O amor pelo trabalho com massas nos motivou a criar receitas únicas,
+                    buscando sempre a textura e o sabor perfeitos.
+                    O que começou como um desafio tornou-se um grande propósito. Sem recursos, busquei uma solução, me
+                    dediquei aos estudos e, com o apoio da minha família, que foi essencial nesse processo, cheguei à
+                    receita ideal, aquilo que hoje chamo de minha massa perfeita.
+
+                    O que mais me motiva é ver a felicidade de quem prova nossos salgados. Saber que fazemos parte de
+                    momentos especiais, seja em casa, em festas ou em celebrações, traz uma enorme satisfação. Mais do
+                    que produzir salgados, espalhamos alegria e sabor. </p>
+            </div>
+            <div class="img-cozinha">
+                <img src="./img/fextouulogo2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="cardapio" id="cardapio">
+
+
+        <div class="itens-cardapio">
+            <div class="Coxinha">
+                <img src="./img/coxinhacardapio.png" alt="Coxinha">
+                <div class="info">
+                    <h3>Coxinhas</h3>
+                    <h4>100 (fritas) <span>R$ 60,00</span></h4>
+                    <h4>100 (congeladas) <span>R$ 40,00</span></h4>
+
+                    <button class="pedir"
+                        onclick="window.location.href='https://wa.me/5521990378080?text=Ol%C3%A1!%0AGostaria%20de%20fazer%20um%20pedido!'">
+                        Pedir agora
+                    </button>
+                </div>
+            </div>
+            <div class="Kibe">
+                <img src="./img/kibe.png" alt="kibe">
+                <div class="info">
+                    <h3>Kibes</h3>
+                    <h4>100 (Fritos) <span>R$ 60,00</span></h4>
+                    <h4>100 (Congelados) <span>R$ 40,00</span></h4>
+
+                    <button class="pedir"
+                        onclick="window.location.href='https://wa.me/5521990378080?text=Ol%C3%A1!%0AGostaria%20de%20fazer%20um%20pedido!'">
+                        Pedir agora
+                    </button>
+                </div>
+
+            </div>
+            <div class="EnroladinhoQueijo">
+                <img src="./img/enroladinhoqueijo.png" alt="EnroladinhoQueijo">
+                <div class="info">
+                    <h3>Enroladinhos de Queijo com Presunto/Orégano</h3>
+                    <h4>100 (Fritos) <span>R$ 60,00</span></h4>
+                    <h4>100 (Congelados) <span>R$ 40,00</span></h4>
+
+                    <button class="pedir"
+                        onclick="window.location.href='https://wa.me/5521990378080?text=Ol%C3%A1!%0AGostaria%20de%20fazer%20um%20pedido!'">
+                        Pedir agora
+                    </button>
+                </div>
+
+            </div>
+            <div class="EnroladinhoSalsicha">
+                <img src="./img/enroladinhosalsicha.png" alt="EnroladinhoSalsicha">
+                <div class="info">
+                    <h3>Enroladinhos de Salsicha</h3>
+                    <h4>30 (Assados) <span>R$ 25,00</span></h4>
+                    <h4>único sabor <span></span></h4>
+
+                    <button class="pedir"
+                        onclick="window.location.href='https://wa.me/5521990378080?text=Ol%C3%A1!%0AGostaria%20de%20fazer%20um%20pedido!'">
+                        Pedir agora
+                    </button>
+                </div>
+
+            </div>
+            <div class="BolinhaQueijo">
+                <img src="./img/bolinhadequeijo.png" alt="BolinhaQueijo">
+                <div class="info">
+                    <h3>Bolinhas de Queijo</h3>
+                    <h4>100 (Fritas) <span>R$ 60,00</span></h4>
+                    <h4>100 (Congeladas) <span>R$ 40,00</span></h4>
+
+                    <button class="pedir"
+                        onclick="window.location.href='https://wa.me/5521990378080?text=Ol%C3%A1!%0AGostaria%20de%20fazer%20um%20pedido!'">
+                        Pedir agora
+                    </button>
+                </div>
+
+            </div>
+            <div class="MiniPastel">
+                <img src="./img/pastel.png" alt="MiniPastel">
+                <div class="info">
+                    <h3>Mini Pastel</h3>
+                    <h4>30 Pastéis <span>R$ 25,00</span></h4>
+                    <h4>Frango ou Carne <span></span></h4>
+
+                    <button class="pedir"
+                        onclick="window.location.href='https://wa.me/5521990378080?text=Ol%C3%A1!%0AGostaria%20de%20fazer%20um%20pedido!'">
+                        Pedir agora
+                    </button>
+                </div>
+
+            </div>
+            <div class="Esfirra">
+                <img src="./img/esfirra.png" alt="Esfirra">
+                <div class="info">
+                    <h3>Esfirras</h3>
+                    <h4>30 Esfirras <span>R$ 25,00</span></h4>
+                    <h4>Frango ou Carne <span></span></h4>
+
+                    <button class="pedir"
+                        onclick="window.location.href='https://wa.me/5521990378080?text=Ol%C3%A1!%0AGostaria%20de%20fazer%20um%20pedido!'">
+                        Pedir agora
+                    </button>
+                </div>
+
+            </div>
+            <div class="MiniJoelho">
+                <img src="./img/minijoelho.png" alt="MiniJoelho">
+                <div class="info">
+                    <h3>Mini Joelho</h3>
+                    <h4>30 Joelhos <span>R$ 25,00</span></h4>
+                    <h4>Queijo e Presunto <span></span></h4>
+
+                    <button class="pedir"
+                        onclick="window.location.href='https://wa.me/5521990378080?text=Ol%C3%A1!%0AGostaria%20de%20fazer%20um%20pedido!'">
+                        Pedir agora
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contatos" id="contatos">
+
+
+        <div class="mapa-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d919.608427788343!2d-43.38173953035768!3d-22.786387762270135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99644ec16fdca9%3A0x22748ddfd05974d3!2sR.%20Monsenhor%20Giuseppe%20Boggiani%2C%20121%20-%20Agostinho%20Porto%2C%20S%C3%A3o%20Jo%C3%A3o%20de%20Meriti%20-%20RJ%2C%2025510-050!5e0!3m2!1spt-BR!2sbr!4v1742741032660!5m2!1spt-BR!2sbr"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <h3></h3>
+        <div class="btn">
+            <button class="reservar" onclick="window.location.href='https://www.instagram.com/fextouu_/'">
+                <i class="fab fa-instagram"></i> Instagram
+            </button>
+            <button class="montar"
+                onclick="window.location.href='https://api.whatsapp.com/send?phone=5521990378080&text=Ol%C3%A1!%0A%0AGostaria%20de%20fazer%20um%20pedido!'">
+                <i class="fas fa-phone"></i> Whatsapp
+            </button>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 Fextouuu. Todos os direitos reservados.</p>
+                <div class="localizacao">
+                    <i class="fas fa-map-marker-alt"></i> <!-- Ícone de localização -->
+                    <span>R. Monsenhor Giuseppe Boggiani 121, Agostinho Porto</span> <!-- Endereço -->
+                </div>
+            </div>
+
+
+        </footer>
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
